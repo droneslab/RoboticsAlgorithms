@@ -1,8 +1,8 @@
 ---
-title: Introduction to Java
+title: Coming Soon!
 ---
 
-Sep 28
+<!-- Sep 28
 : [Java & Git](#)
   : [1.1](#)
 
@@ -20,4 +20,4 @@ Oct 1
 Oct 2
 : [Tracing, IntLists, & Recursion](#)
   : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+: **HW 1 due**{: .label .label-red } -->
