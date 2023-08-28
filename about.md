@@ -14,7 +14,13 @@ description: >-
 1. TOC
 {:toc}
 
-Coming Soon!
+## Overview
+
+<!-- https://www.youtube.com/watch?v=bKIgP9U7dNM -->
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=bKIgP9U7dNM
+" target="_blank"><img src="http://img.youtube.com/vi/bKIgP9U7dNM/0.jpg" 
+alt="CSE 4/568 Intro" width="1280" height="720" border="10" /></a>
 ---
 <!-- 
 ## About
