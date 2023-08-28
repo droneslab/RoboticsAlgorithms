@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CSE 468-568 - Robotics Algorithms
+title: CSE 4/568 - Robotics Algorithms
 tagline: A first course in Robotics
 description: This course will teach you the basics of robot autonomy. You will use the F1tenth.org car and environment to implement and test some of these algorithms
 author: Karthik Dantu

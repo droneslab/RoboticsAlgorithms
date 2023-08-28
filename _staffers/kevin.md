@@ -1,9 +1,9 @@
 ---
-name: Kevin Lin
+name: Karthik Dantu
 role: Instructor
-email: me@example.com
-website: https://kevinl.info
-photo: kevin.jpg
+email: kdantu@buffalo.edu
+website: https://cse.buffalo.edu/faculty/kdantu/
+photo: kar.jpg
 ---
 
-[Schedule an appointment](#){: .btn .btn-outline }
+<!-- [Schedule an appointment](#){: .btn .btn-outline } -->
