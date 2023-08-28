@@ -1,5 +1,5 @@
 ---
-title: Coming Soon!
+title: Course Calendar
 ---
 
 Aug 29
