@@ -23,23 +23,15 @@ schedule:
   - name: Tuesday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 2:00 PM
+        end: 3:30 AM
+        location: 101 Davis
   - name: Wednesday
   - name: Thursday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 2:00 PM
+        end: 3:30 AM
+        location: 101 Davis
   - name: Friday
 ---
