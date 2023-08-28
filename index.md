@@ -1,6 +1,6 @@
 ---
 layout: home
-title: CSE 468/568: Robotics Algorithms
+title: CSE 468/568 - Robotics Algorithms
 nav_exclude: true
 seo:
   type: Course
