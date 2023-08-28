@@ -25,13 +25,13 @@ schedule:
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
-        location: 101 Davis
+        location: Davis 101
   - name: Wednesday
   - name: Thursday
     events:
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
-        location: 101 Davis
+        location: Davis 101
   - name: Friday
 ---
