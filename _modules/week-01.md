@@ -2,15 +2,15 @@
 title: Coming Soon!
 ---
 
-<!-- Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Aug 29
+: [Introduction to CSE 4/568](#)
+  <!-- : [1.1](#) -->
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+Aug 31
+: **Section**{: .label .label-purple }[Programming 101](#)
+  <!-- : [Solution](#) -->
 
-Sep 30
+<!-- Sep 30
 : [Variables & Objects](#)
   : [1.2](#), [2.1](#)
 
