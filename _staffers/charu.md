@@ -3,7 +3,7 @@ name: Charuvahan Adhivarahan
 role: Instructor
 email: charuvah@buffalo.edu
 website:
-photo:
+photo: charu.jpg
 ---
 
 <!-- [Schedule an appointment](#){: .btn .btn-outline } -->
