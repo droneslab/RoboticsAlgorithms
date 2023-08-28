@@ -7,8 +7,7 @@ Aug 29
   <!-- : [1.1](#) -->
 
 Aug 31
-<!-- : **Section**{: .label .label-purple } -->
-: [Programming 101](#)
+: **Class Activity**{: .label .label-purple }[Programming 101](#)
   <!-- : [Solution](#) -->
 
 <!-- Sep 30
