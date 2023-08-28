@@ -21,25 +21,17 @@ timeline:
 schedule:
   - name: Monday
   - name: Tuesday
-      events:
-          - name: Lecture
-            start: 2:00 PM
-            end: 3:20 PM
-            location: Davis 101
-          - name: Office Hours (TBD)
-            # start: 12:30 PM
-            # end: 2:00 PM
-            # location: 271 Soda
+  events:
+      - name: Lecture
+        start: 2:00 PM
+        end: 3:20 PM
+        location: Davis 101
   - name: Wednesday
   - name: Thursday
-      events:
-        - name: Lecture
-          start: 2:00 PM
-          end: 3:20 PM
-          location: Davis 101
-        - name: Office Hours (TBD)
-          # start: 12:30 PM
-          # end: 2:00 PM
-          # location: 271 Soda
+  events:
+      - name: Lecture
+        start: 2:00 PM
+        end: 3:20 PM
+        location: Davis 101
   - name: Friday
 ---
