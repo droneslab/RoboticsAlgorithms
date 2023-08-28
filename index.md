@@ -7,7 +7,7 @@ seo:
   name: Robotics Algorithms
 ---
 
-# {{ site.tagline }}
+# Course Home
 {: .mb-2 }
 {{ site.description }}
 {: .fs-6 .fw-300 }
