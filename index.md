@@ -24,7 +24,7 @@ CSE 468/568: Robotics Algorithms is a first course in Robot Autonomy. You will l
 - a [course calendar](calendar.md),
 - a [staff](staff.md) page,
 - a weekly [schedule](schedule.md).
-- a set of common questions about the class [FAQ] (faq.md). 
+- a set of common questions about the class [FAQ](faq.md). 
 
 ## About the Course
 
