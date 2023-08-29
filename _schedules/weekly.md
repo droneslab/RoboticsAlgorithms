@@ -18,7 +18,7 @@ schedule:
       - name: OH - Karthik Dantu
         start: 11:00 AM
         end: 12:00 PM
-        location: [Zoom](https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon)
+        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Tuesday
     events:
       - name: OH - Smit / Christo
@@ -34,7 +34,7 @@ schedule:
       - name: OH - Karthik Dantu
         start: 11:00 AM
         end: 12:00 PM
-        location: [Zoom](https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon)
+        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Thursday
     events:
       - name: OH - Pranay Meshram
@@ -50,5 +50,5 @@ schedule:
       - name: OH - Yash / Yashom 
         start: 11:00 AM
         end: 12:00 PM
-        location: [Zoom](https://yash.turkar.in/zoom/568)
+        location: https://yash.turkar.in/zoom/568
 ---
