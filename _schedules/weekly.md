@@ -21,13 +21,13 @@ timeline:
 schedule:
   - name: Monday
     events:
-      - name: Office Hours - Karthik Dantu
+      - name: OH - Karthik Dantu
         start: 11:00 AM
         end: 12:00 PM
         location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Tuesday
     events:
-      - name: Office Hours - Smit Rajguru / Christo Aluckal
+      - name: OH - Smit / Christo
         start: 10:00 AM
         end: 11:00 AM
         location: TBD
@@ -37,13 +37,13 @@ schedule:
         location: Davis 101
   - name: Wednesday
     events:
-      - name: Office Hours - Karthik Dantu
+      - name: OH - Karthik Dantu
         start: 11:00 AM
         end: 12:00 PM
         location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Thursday
     events:
-      - name: Office Hours - Pranay Meshram
+      - name: OH - Pranay Meshram
         start: 10:00 AM
         end: 12:00 PM
         location: TBD
@@ -53,7 +53,7 @@ schedule:
         location: Davis 101
   - name: Friday
     events:
-      - name: Office Hours - Yash Turkar / Yashom Dighe
+      - name: OH - Yash / Yashom 
         start: 11:00 AM
         end: 12:00 PM
         location: https://yash.turkar.in/zoom/568

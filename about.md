@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: About
 description: >-
@@ -21,4 +21,4 @@ The F1tenth platform is an exciting tool that provides an excellent opportunity 
 ## Resources
 
 Set-up instructions and resources will be made available soon!
-<!-- ## FAQ -->
+## FAQ -->
