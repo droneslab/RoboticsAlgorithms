@@ -46,7 +46,7 @@ schedule:
       - name: OH - Pranay Meshram
         start: 10:00 AM
         end: 12:00 PM
-        location: TBD
+        location: https://buffalo.zoom.us/j/95162435897
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
