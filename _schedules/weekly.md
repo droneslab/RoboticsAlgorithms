@@ -20,18 +20,41 @@ timeline:
   - '5:30 PM'
 schedule:
   - name: Monday
+    events:
+      - name: Office Hours - Karthik Dantu
+        start: 11:00 AM
+        end: 12:00 PM
+        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Tuesday
     events:
+      - name: Office Hours - Smit Rajguru / Christo Aluckal
+        start: 10:00 AM
+        end: 11:00 AM
+        location: TBD
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
         location: Davis 101
   - name: Wednesday
+    events:
+      - name: Office Hours - Karthik Dantu
+        start: 11:00 AM
+        end: 12:00 PM
+        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Thursday
     events:
+      - name: Office Hours - Pranay Meshram
+        start: 10:00 AM
+        end: 12:00 PM
+        location: TBD
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
         location: Davis 101
   - name: Friday
+    events:
+      - name: Office Hours - Yash Turkar / Yashom Dighe
+        start: 11:00 AM
+        end: 12:00 PM
+        location: https://yash.turkar.in/zoom/568
 ---
