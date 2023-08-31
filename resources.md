@@ -20,9 +20,7 @@ description: Resources for the course.
 
 This is a free and open-source virtualization software that can be used to run virtual machines.
 
-- [Download link]
-    
-    [Oracle VM VirtualBox](https://www.virtualbox.org/)
+- [Oracle VM VirtualBox](https://www.virtualbox.org/)
     
 - After downloading VirtualBox, install it on your machine.
 - Once installed, open VirtualBox and click on the "Import" button to import a virtual machine.
@@ -35,9 +33,7 @@ This is a free and open-source virtualization software that can be used to run v
 
 This is a paid virtualization software that can be used to run virtual machines.
 
-- [Download link]
-    
-    [Run Windows on Mac - Parallels Desktop 18 Virtual Machine for Mac](https://www.parallels.com/products/desktop/)
+- [Run Windows on Mac - Parallels Desktop 18 Virtual Machine for Mac](https://www.parallels.com/products/desktop/)
     
 - After downloading Parallels Desktop, install it on your machine.
 - Once installed, open Parallels Desktop and click on the "File" menu, select "Import".
