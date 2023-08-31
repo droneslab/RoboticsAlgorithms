@@ -30,7 +30,7 @@ schedule:
       - name: OH - Smit / Christo
         start: 10:00 AM
         end: 11:00 AM
-        location: TBD
+        location: https://buffalo.zoom.us/j/96653648115
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM

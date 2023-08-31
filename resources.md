@@ -42,6 +42,11 @@ This is a paid virtualization software that can be used to run virtual machines.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
 - [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/jw1d2e9uu0uggiv5ix1elz3ho3m1cr3q)
 
+<aside>
+💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
+
+</aside>
+
 ### Multipass [Unsupported]
 
 Multipass is a simple and lightweight tool for creating and managing virtual machines on Linux, Windows, and macOS. It uses the hypervisor built into your operating system to create and manage VMs, making it an easy and efficient option for running Ubuntu and ROS on your local machine.
