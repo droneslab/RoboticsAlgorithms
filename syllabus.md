@@ -1,3 +1,8 @@
+---
+layout: page
+title: Syllabus
+description: Listing of course modules and topics.
+---
 **\
 Course Description:** This course is intended to be a comprehensive
 introduction to robotics algorithms for a senior
