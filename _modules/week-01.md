@@ -1,5 +1,5 @@
 ---
-title: Course Calendar
+title: Week 1
 ---
 
 Lecture
