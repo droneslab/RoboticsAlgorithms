@@ -1,21 +1,9 @@
 ---
-title: Course Calendar
+title: Week 13
 ---
 
+Lecture
+: Reinforcement Learning Introduction, Deep RL; RL usage examples
 
-  <!-- : [1.1](#) -->
-
-
-  <!-- : [Solution](#) -->
-
-<!-- Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
-
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red } -->
+Activity
+: RL Examples
