@@ -181,4 +181,4 @@ for graduate students and another for the undergraduate students.
 The weekly coverage might change as it depends on the progress of the
 class. However, you must keep up with the reading assignments.
 
-[Schedule](./schedule.md)
+[Calendar](./calendar.md)
