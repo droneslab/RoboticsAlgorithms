@@ -24,7 +24,7 @@ schedule:
       - name: OH - Karthik Dantu
         start: 11:00 AM
         end: 12:00 PM
-        location: [Zoom](https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon)
+        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Tuesday
     events:
       - name: OH - Smit / Christo
@@ -40,13 +40,13 @@ schedule:
       - name: OH - Karthik Dantu
         start: 11:00 AM
         end: 12:00 PM
-        location: [Zoom](https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon)
+        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Thursday
     events:
       - name: OH - Pranay Meshram
         start: 10:00 AM
         end: 12:00 PM
-        location: [Zoom](https://buffalo.zoom.us/j/95162435897?pwd=MkdSc0NwbzNVWVlQcWtIdzRjR0NTZz09)
+        location: https://buffalo.zoom.us/j/95162435897?pwd=MkdSc0NwbzNVWVlQcWtIdzRjR0NTZz09
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
