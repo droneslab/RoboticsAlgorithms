@@ -46,7 +46,7 @@ schedule:
       - name: OH - Pranay Meshram
         start: 10:00 AM
         end: 12:00 PM
-        location: https://buffalo.zoom.us/j/95162435897
+        location: https://buffalo.zoom.us/j/95162435897?pwd=MkdSc0NwbzNVWVlQcWtIdzRjR0NTZz09
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
@@ -54,7 +54,7 @@ schedule:
   - name: Friday
     events:
       - name: OH - Yash / Yashom 
-        start: 11:00 AM
-        end: 12:00 PM
-        location: https://yash.turkar.in/zoom/568
+        start: 5:00 PM
+        end: 6:00 PM
+        location: Davis 106
 ---
