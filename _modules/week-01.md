@@ -3,7 +3,6 @@ title: Week 1
 ---
 
 Lecture
-: Introduction to Robotics, Introduction to Autonomy, Academic Integrity
+: Robotics Algorithms : Course Logistics, Academic Integrity
 
-Activity
-: Linux Basics
+
