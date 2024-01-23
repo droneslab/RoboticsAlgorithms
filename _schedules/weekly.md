@@ -29,7 +29,7 @@ schedule:
       #  start: TBD #11:00 AM
       #  end: TBD #12:00 PM
       #  location: TBD #https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
-  #- name: Tuesday
+  - name: Tuesday
     #events:
       #- name: OH - Smit / Christo
       #  start: 3:30 PM
