@@ -21,40 +21,27 @@ timeline:
 schedule:
   - name: Monday
     events:
-      - name: OH - Karthik Dantu
-        start: 11:00 AM
-        end: 12:00 PM
-        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
-  - name: Tuesday
-    events:
-      - name: Lecture
-        start: 2:00 PM
-        end: 3:20 PM
-        location: Davis 101
-      - name: OH - Smit / Christo
-        start: 3:30 PM
-        end: 4:30 PM
-        location: https://buffalo.zoom.us/j/96653648115
+      - name: Lecture 
+        start: 4:00 PM
+        end: 5:20 PM
+        location: NSC 225
+      #- name: OH - Karthik Dantu
+      #  start: TBD #11:00 AM
+      #  end: TBD #12:00 PM
+      #  location: TBD #https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
+  #- name: Tuesday
+    #events:
+      #- name: OH - Smit / Christo
+      #  start: 3:30 PM
+      #  end: 4:30 PM
+      #  location: https://buffalo.zoom.us/j/96653648115
   - name: Wednesday
     events:
-      - name: OH - Karthik Dantu
-        start: 11:00 AM
-        end: 12:00 PM
-        location: https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
+      - name: Lecture 
+        start: 4:00 PM
+        end: 5:20 PM
+        location: NSC 225
   - name: Thursday
-    events:
-      - name: Lecture
-        start: 2:00 PM
-        end: 3:20 PM
-        location: Davis 101
-      - name: OH - Pranay Meshram
-        start: 3:30 PM
-        end: 4:30 PM
-        location: https://buffalo.zoom.us/j/95162435897?pwd=MkdSc0NwbzNVWVlQcWtIdzRjR0NTZz09
   - name: Friday
-    events:
-      - name: OH - Yash / Yashom 
-        start: 5:00 PM
-        end: 6:00 PM
-        location: Davis 106
+
 ---
