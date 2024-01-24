@@ -98,6 +98,9 @@ yes | sudo apt-get install openssh-server net-tools git htop
 echo "Github Credential Save"
 git config --global credential.helper store
 
+echo "Installing Gparted"
+yes | sudo apt-get install gparted
+
 echo "Installing pip and other python packages"
 yes | sudo apt install python3-pip 
 yes | pip3 install opencv-python
@@ -106,6 +109,8 @@ yes | pip3 install matplotlib
 yes | pip3 install pandas
 yes | pip3 install opencv-contrib-python
 yes | pip3 install scipy
+yes | pip3 install open3d timm
+yes | pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 echo "Installing VSCode"
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -125,7 +130,9 @@ yes | sudo apt install ros-noetic-desktop-full
 sudo apt-get install -y ros-noetic-navigation ros-noetic-teb-local-planner* ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros-control ros-noetic-ackermann-msgs ros-noetic-serial 
 sudo apt-get install -y ros-noetic-turtlebot3*
 sudo apt-get install -y ros-noetic-rosserial*
-sudo apt-get install -y ros-noetic-rosbridge-suite
+sudo apt-get install -y ros-noetic-rosbridge-suite ros-noetic-foxglove-bridge
+sudo apt-get install -y ros-noetic-laser-scan-matcher ros-noetic-amcl ros-noetic-hector-slam ros-noetic-rqt-multiplot 
+
 sudo pip3 install -U catkin_tools
 
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
@@ -139,18 +146,22 @@ catkin build
 mkdir -p src/audubon_unity
 cd src/audubon_unity
 git clone https://github.com/SmitRajguru/UB_CSE468_568_audubon_unity.git
-cp -R UB_CSE468_568_audubon_unity/* ./
+if [ ! -f "config/map.yaml" ]; then
+    cp UB_CSE468_568_audubon_unity/config/map.yaml ./config/map.yaml
+fi
+rsync -av --exclude='map.yaml' UB_CSE468_568_audubon_unity/* ./
 rm -rf UB_CSE468_568_audubon_unity
 chmod +x script/*
 chmod +x src/*
 
 catkin build
+
 ```
 
-<aside>
+<!-- <aside>
 💡 Additionally follow the instructions of this Git Repo : [CSE 468/568 - Simulator](https://github.com/droneslab/audubon_gazebo/tree/cse4568)
 
-</aside>
+</aside> -->
 
 ## Additional Resources
 
