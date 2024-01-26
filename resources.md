@@ -30,7 +30,7 @@ This is a free and open-source virtualization software that can be used to run v
 - Select the pre-configured virtual machine file, this should have the extension ".ova" or ".ovf"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/p7kk35m32eqem9gqfv0bk080lioy6x8z)
+- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/qedq5ph8otgbaf2cay4fzd2x01btju8e)
 
 ### Parallels Desktop [Recommended] for Apple Silicon (M1x,M2x)
 
