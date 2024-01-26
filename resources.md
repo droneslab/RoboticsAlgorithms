@@ -130,7 +130,7 @@ yes | sudo apt install ros-noetic-desktop-full
 sudo apt-get install -y ros-noetic-navigation ros-noetic-teb-local-planner* ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros-control ros-noetic-ackermann-msgs ros-noetic-serial 
 sudo apt-get install -y ros-noetic-turtlebot3*
 sudo apt-get install -y ros-noetic-rosserial*
-sudo apt-get install -y ros-noetic-rosbridge-suite ros-noetic-foxglove-bridge
+sudo apt-get install -y ros-noetic-rosbridge-server ros-noetic-foxglove-bridge
 sudo apt-get install -y ros-noetic-laser-scan-matcher ros-noetic-amcl ros-noetic-hector-slam ros-noetic-rqt-multiplot 
 
 sudo pip3 install -U catkin_tools
