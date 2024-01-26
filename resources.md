@@ -7,7 +7,7 @@ description: Resources for the course.
 # Development Environment
 
 ## Simulator Setup (**NEW**)
-[Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-51507bd0b98140fc8cc9d246471814b0?pvs=4)
+[Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
 
 ## Virtual Machine options
 
