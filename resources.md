@@ -7,7 +7,7 @@ description: Resources for the course.
 # Development Environment
 
 ## Simulator Setup (**NEW**)
-[Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-51507bd0b98140fc8cc9d246471814b0?pvs=4)
+[Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
 
 ## Virtual Machine options
 
@@ -43,7 +43,7 @@ This is a paid virtualization software that can be used to run virtual machines.
 - Select the pre-configured virtual machine file, this should have the extension ".pvm" or ".hdd"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/jw1d2e9uu0uggiv5ix1elz3ho3m1cr3q)
+- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/jbphauds61vxhv1ui6domjfa1effr2ao)
 
 <aside>
 💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
