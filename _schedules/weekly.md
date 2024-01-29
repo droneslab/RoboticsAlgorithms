@@ -21,14 +21,14 @@ timeline:
 schedule:
   - name: Monday
     events:
+      - name: OH - Karthik Dantu
+        start: 11:00 AM
+        end: 12:00 PM
+        location: TBD #Davis 113F    
       - name: Lecture 
         start: 4:00 PM
         end: 5:20 PM
         location: NSC 225
-      #- name: OH - Karthik Dantu
-      #  start: TBD #11:00 AM
-      #  end: TBD #12:00 PM
-      #  location: TBD #https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Tuesday
     #events:
       #- name: OH - Smit / Christo
@@ -37,6 +37,10 @@ schedule:
       #  location: https://buffalo.zoom.us/j/96653648115
   - name: Wednesday
     events:
+      - name: OH - Karthik Dantu
+        start: 11:00 AM
+        end: 12:00 PM
+        location: TBD #Davis 113F
       - name: Lecture 
         start: 4:00 PM
         end: 5:20 PM
