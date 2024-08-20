@@ -43,7 +43,7 @@ This is a paid virtualization software that can be used to run virtual machines.
 - Select the pre-configured virtual machine file, this should have the extension ".pvm" or ".hdd"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/jbphauds61vxhv1ui6domjfa1effr2ao)
+- [[Pre-configured Virtual Machine download link]](https://ubuffalo-my.sharepoint.com/:u:/g/personal/yashturk_buffalo_edu/EY-SkGPh42xEktLh65jzUhgBGQMxxa8Zf22FB2TuUA571g?e=DUDUxz)
 
 <aside>
 💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
