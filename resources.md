@@ -6,7 +6,7 @@ description: Resources for the course.
 
 # Development Environment
 
-## Simulator Setup (**NEW**)
+## Simulator Setup
 [Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
 
 ## Virtual Machine options
@@ -43,7 +43,7 @@ This is a paid virtualization software that can be used to run virtual machines.
 - Select the pre-configured virtual machine file, this should have the extension ".pvm" or ".hdd"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/jbphauds61vxhv1ui6domjfa1effr2ao)
+- [[Pre-configured Virtual Machine download link]](https://ubuffalo-my.sharepoint.com/:u:/g/personal/yashturk_buffalo_edu/EY-SkGPh42xEktLh65jzUhgBGQMxxa8Zf22FB2TuUA571g?e=DUDUxz)
 
 <aside>
 💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
@@ -164,6 +164,16 @@ catkin build
 </aside> -->
 
 ## Additional Resources
+
+- **Programming Practice**
+    - **CSV Handling**:
+        - [Write up Page](https://liberating-dash-9ac.notion.site/Activity-2-Python-CSV-handling-c183888908c240408e97586d77457c47)
+        - [Files](https://buffalo.box.com/s/17j8ncbio4qkufyvxkw3iknqtqug69il)
+
+    - **JSON Parsing**:
+        - [Write up Page](https://liberating-dash-9ac.notion.site/Activity-3-Python-JSON-handling-e88ccd4617084b5fa3985567dd614918)
+        - [Files](https://buffalo.box.com/s/tq87e70l1b0san4srielylxkl8oc4djz)
+
 
 - **ROS Setup and Usage**:
     - ROS (Robot Operating System) is a widely used framework for robot software development. To get started with ROS, check out the official documentation and tutorials available at [http://www.ros.org/](http://www.ros.org/).
