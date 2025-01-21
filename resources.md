@@ -6,7 +6,7 @@ description: Resources for the course.
 
 # Development Environment
 
-## Simulator Setup (**NEW**)
+## Simulator Setup
 [Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
 
 ## Virtual Machine options
@@ -164,6 +164,16 @@ catkin build
 </aside> -->
 
 ## Additional Resources
+
+- **Programming Practice**
+    - **CSV Handling**:
+        - [Write up Page](https://liberating-dash-9ac.notion.site/Activity-2-Python-CSV-handling-c183888908c240408e97586d77457c47)
+        - [Files](https://buffalo.box.com/s/17j8ncbio4qkufyvxkw3iknqtqug69il)
+
+    - **JSON Parsing**:
+        - [Write up Page](https://liberating-dash-9ac.notion.site/Activity-3-Python-JSON-handling-e88ccd4617084b5fa3985567dd614918)
+        - [Files](https://buffalo.box.com/s/tq87e70l1b0san4srielylxkl8oc4djz)
+
 
 - **ROS Setup and Usage**:
     - ROS (Robot Operating System) is a widely used framework for robot software development. To get started with ROS, check out the official documentation and tutorials available at [http://www.ros.org/](http://www.ros.org/).
