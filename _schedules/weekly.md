@@ -20,28 +20,41 @@ timeline:
   - '5:30 PM'
 schedule:
   - name: Monday
-    events:
-      - name: Lecture 
-        start: 4:00 PM
-        end: 5:20 PM
-        location: NSC 225
+    # events:
+    #   - name: Lecture 
+    #     start: 2:00 PM
+    #     end: 3:20 PM
+    #     location: NSC 225
       #- name: OH - Karthik Dantu
       #  start: TBD #11:00 AM
       #  end: TBD #12:00 PM
       #  location: TBD #https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Tuesday
-    #events:
-      #- name: OH - Smit / Christo
-      #  start: 3:30 PM
-      #  end: 4:30 PM
-      #  location: https://buffalo.zoom.us/j/96653648115
-  - name: Wednesday
     events:
       - name: Lecture 
-        start: 4:00 PM
-        end: 5:20 PM
+        start: 2:00 PM
+        end: 3:20 PM
         location: NSC 225
+  - name: Wednesday
+    # events:
+    #   - name: Lecture 
+    #     start: 2:00 PM
+    #     end: 3:20 PM
+    #     location: NSC 225
+    #   #- name: OH - Karthik Dantu
+    #   #  start: TBD #11:00 AM
+    #   #  end: TBD #12:00 PM
+    #   #  location: TBD #https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Thursday
+    events:
+      - name: Lecture 
+        start: 2:00 PM
+        end: 3:20 PM
+        location: NSC 225
+      #- name: OH - Karthik Dantu
+      #  start: TBD #11:00 AM
+      #  end: TBD #12:00 PM
+      #  location: TBD #https://buffalo.zoom.us/j/96108016690?pwd=MkFISHZxM2p5WUNDSnUvRXB3OW40Zz09&from=addon
   - name: Friday
 
 ---
