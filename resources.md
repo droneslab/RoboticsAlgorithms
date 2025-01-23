@@ -6,9 +6,6 @@ description: Resources for the course.
 
 # Development Environment
 
-## Simulator Setup
-[Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
-
 ## Virtual Machine options
 
 - Use one of options for Hypervisors given below or setup natively
@@ -111,10 +108,8 @@ yes | pip3 install opencv-contrib-python
 yes | pip3 install scipy
 yes | pip3 install open3d timm
 yes | pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-
-echo "Installing VSCode"
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-yes | sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+## Development Environment
+ges.microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
 rm -f packages.microsoft.gpg
 yes | sudo apt install apt-transport-https
@@ -141,7 +136,15 @@ source ~/.bashrc
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin build
+```
 
+# F1tenth Edition
+
+## Simulator Setup
+[Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
+
+
+```bash
 # download the latest audubon unity package
 mkdir -p src/audubon_unity
 cd src/audubon_unity
@@ -163,7 +166,7 @@ catkin build
 
 </aside> -->
 
-## Additional Resources
+# Additional Resources
 
 - **Programming Practice**
     - **CSV Handling**:
