@@ -27,7 +27,7 @@ This is a free and open-source virtualization software that can be used to run v
 - Select the pre-configured virtual machine file, this should have the extension ".ova" or ".ovf"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/qedq5ph8otgbaf2cay4fzd2x01btju8e)
+- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/i80lkbsbxkx7ln5f8ozzbq322ykafhi8)
 
 ### Parallels Desktop [Recommended] for Apple Silicon (M1x,M2x)
 
@@ -40,7 +40,7 @@ This is a paid virtualization software that can be used to run virtual machines.
 - Select the pre-configured virtual machine file, this should have the extension ".pvm" or ".hdd"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://ubuffalo-my.sharepoint.com/:u:/g/personal/yashturk_buffalo_edu/EY-SkGPh42xEktLh65jzUhgBGQMxxa8Zf22FB2TuUA571g?e=DUDUxz)
+- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/nb4oqo3rik1xvu0ckvwbmg6j4cz40z1t)
 
 <aside>
 💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
@@ -143,6 +143,9 @@ catkin build
 ## Simulator Setup
 [Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
 
+## VMs
+- [VirtualBox [Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/qedq5ph8otgbaf2cay4fzd2x01btju8e)
+- [Parallels [Pre-configured Virtual Machine download link]](https://ubuffalo-my.sharepoint.com/:u:/g/personal/yashturk_buffalo_edu/EY-SkGPh42xEktLh65jzUhgBGQMxxa8Zf22FB2TuUA571g?e=DUDUxz)
 
 ```bash
 # download the latest audubon unity package
