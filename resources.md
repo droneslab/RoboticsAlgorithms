@@ -42,10 +42,6 @@ This is a paid virtualization software that can be used to run virtual machines.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
 - [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/nb4oqo3rik1xvu0ckvwbmg6j4cz40z1t)
 
-<aside>
-💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
-
-</aside>
 
 ### Multipass [Unsupported]
 
@@ -146,6 +142,12 @@ catkin build
 ## VMs
 - [VirtualBox [Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/qedq5ph8otgbaf2cay4fzd2x01btju8e)
 - [Parallels [Pre-configured Virtual Machine download link]](https://ubuffalo-my.sharepoint.com/:u:/g/personal/yashturk_buffalo_edu/EY-SkGPh42xEktLh65jzUhgBGQMxxa8Zf22FB2TuUA571g?e=DUDUxz)
+
+<aside>
+💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
+
+</aside>
+
 
 ```bash
 # download the latest audubon unity package
