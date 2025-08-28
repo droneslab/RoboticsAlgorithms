@@ -13,7 +13,7 @@ description: Resources for the course.
 - Credentials:
     - Username : `cse4568`
     - Password : `cse4568` (for VirtualBox)
-    - Password : `cse4568#` (for Parallels)
+    - Password : `cse4568` (for Parallels)
 - Note : Multipass is an alternative to using VirtualBox and Parallels (which is paid) and requires more work so limited support will be available from instructors
 
 ### VirtualBox [Recommended] for x86
@@ -27,7 +27,7 @@ This is a free and open-source virtualization software that can be used to run v
 - Select the pre-configured virtual machine file, this should have the extension ".ova" or ".ovf"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/i80lkbsbxkx7ln5f8ozzbq322ykafhi8)
+- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/leys1fb3pgb0y24pcic9d1ztrmsbef8k)
 
 ### Parallels Desktop [Recommended] for Apple Silicon (M1x,M2x)
 
@@ -40,7 +40,7 @@ This is a paid virtualization software that can be used to run virtual machines.
 - Select the pre-configured virtual machine file, this should have the extension ".pvm" or ".hdd"
 - Follow the prompts to import the virtual machine.
 - Once imported, select the virtual machine and click on "Start" button to launch it.
-- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/nb4oqo3rik1xvu0ckvwbmg6j4cz40z1t)
+- [[Pre-configured Virtual Machine download link]](https://buffalo.box.com/s/28w3fogyqmpmzsirnkxun5u6qz6vnjm4)
 
 
 ### Multipass [Unsupported]
@@ -112,29 +112,61 @@ yes | sudo apt install apt-transport-https
 sudo apt-get update
 yes | sudo apt install code # or code-insiders
 
-echo "Installing ROS Noetic"
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-yes | sudo apt install curl # if you haven't already installed curl
-curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-sudo apt-get update
-yes | sudo apt install ros-noetic-desktop-full
-sudo apt-get install -y ros-noetic-navigation ros-noetic-teb-local-planner* ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros-control ros-noetic-ackermann-msgs ros-noetic-serial 
-sudo apt-get install -y ros-noetic-turtlebot3*
-sudo apt-get install -y ros-noetic-rosserial*
-sudo apt-get install -y ros-noetic-rosbridge-server ros-noetic-foxglove-bridge
-sudo apt-get install -y ros-noetic-laser-scan-matcher ros-noetic-amcl ros-noetic-hector-slam ros-noetic-rqt-multiplot 
 
-sudo pip3 install -U catkin_tools
 
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+echo "Installing ROS2 Humble"
 
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
-catkin build
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+
+sudo apt update
+
+sudo apt upgrade
+
+sudo apt install ros-humble-desktop
+
+sudo apt install ros-humble-ros-base
+
+sudo apt install ros-dev-tools
+
+# Append configurations to ~/.bashrc
+{
+    echo "# ROS Humble setup"
+    echo "source /opt/ros/humble/setup.bash"
+    echo "source /usr/share/colcon_cd/function/colcon_cd.sh"
+    echo "export _colcon_cd_root=/opt/ros/humble/"
+    echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash"
+    echo "source /opt/ros/humble/share/ros2cli/environment/ros2-argcomplete.bash"
+} >> ~/.bash_aliases
+
+sudo apt-get install -y \
+ros-humble-navigation2 \
+ros-humble-nav2-dwb-controller \
+ros-humble-ros2-control \
+ros-humble-ros2-controllers \
+ros-humble-gazebo-ros2-control \
+ros-humble-ackermann-msgs \
+ros-humble-foxglove-bridge \
+ros-humble-pointcloud-to-laserscan \
+ros-humble-slam-toolbox \
+ros-humble-turtlebot3-gazebo
 ```
 
-# F1tenth Edition
+# F1tenth Edition - Deprecated
 
 ## Simulator Setup
 [Link to Simulator Setup](https://liberating-dash-9ac.notion.site/F1Tenth-Simulator-Setup-5a013b6a723b490cbf6881a42a94d63f)
@@ -144,7 +176,7 @@ catkin build
 - [Parallels [Pre-configured Virtual Machine download link]](https://ubuffalo-my.sharepoint.com/:u:/g/personal/yashturk_buffalo_edu/EY-SkGPh42xEktLh65jzUhgBGQMxxa8Zf22FB2TuUA571g?e=DUDUxz)
 
 <aside>
-💡 ROS Noetic is already installed on the VMs. If you plan on using a native installation, please follow the instructions given below on Ubuntu 20.04 (Focal).
+<p style="color: red; font-weight: bold;"> 💡 ROS Noetic is not installed on the VMs. This setup reuires Ununtu 20.04 (focal) </p>
 
 </aside>
 

@@ -34,7 +34,7 @@ schedule:
       - name: Lecture 
         start: 2:00 PM
         end: 3:20 PM
-        location: NSC 225
+        location: Knox 109
   - name: Wednesday
     # events:
     #   - name: Lecture 
@@ -50,7 +50,7 @@ schedule:
       - name: Lecture 
         start: 2:00 PM
         end: 3:20 PM
-        location: NSC 225
+        location: Knox 109
       #- name: OH - Karthik Dantu
       #  start: TBD #11:00 AM
       #  end: TBD #12:00 PM
